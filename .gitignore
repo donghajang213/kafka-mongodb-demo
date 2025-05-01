@@ -1,1 +1,19 @@
-.venv/ 
+# ▶ Python 가상환경 및 캐시 파일 무시
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ▶ VS Code 설정 파일 무시
+.vscode/
+
+# ▶ 운영체제 생성 파일 무시
+.DS_Store
+Thumbs.db
+
+# ▶ 로그 파일 무시
+*.log
+
+# ▶ 환경설정 파일 무시
+.env
